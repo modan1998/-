@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<IconDefinitions>
+		<!-- Wonder: prefer GS Machu Picchu atlas; FOW fallback to Potala -->
+		<Row Name="ICON_BUILDING_CHI_LONG_SHAN_MAI" Atlas="ICON_ATLAS_WONDERS" Index="19"/>
+		<Row Name="ICON_BUILDING_CHI_LONG_SHAN_MAI_FOW" Atlas="ICON_ATLAS_WONDERS_FOW" Index="19"/>
+		<!-- Unit: Helicopter flying art -->
+		<Row Name="ICON_UNIT_CLSM_ORSTED" Atlas="ICON_ATLAS_UNITS" Index="86"/>
+		<Row Name="ICON_UNIT_CLSM_ORSTED_FOW" Atlas="ICON_ATLAS_UNITS_FOW" Index="86"/>
+		<Row Name="ICON_UNIT_CLSM_ORSTED_PORTRAIT" Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="20"/>
+	</IconDefinitions>
+</GameInfo>
