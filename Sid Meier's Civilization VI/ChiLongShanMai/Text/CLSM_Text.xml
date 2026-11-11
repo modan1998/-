@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_CHI_LONG_SHAN_MAI_NAME" Language="zh_Hans_CN">
+			<Text>赤龙山脉</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHI_LONG_SHAN_MAI_NAME" Language="en_US">
+			<Text>Red Dragon Mountains</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHI_LONG_SHAN_MAI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>必须建在山地格上。无时代与科技限制。建成后自动召唤「龙神.奥尔斯帝德」。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHI_LONG_SHAN_MAI_DESCRIPTION" Language="en_US">
+			<Text>Must be built on a Mountain tile. Available in any era. Upon completion, spawns Dragon God Orsted.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHI_LONG_SHAN_MAI_QUOTE" Language="zh_Hans_CN">
+			<Text>「群山匍匐，赤龙苏醒。」</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CHI_LONG_SHAN_MAI_QUOTE" Language="en_US">
+			<Text>"The mountains bow. The crimson dragon awakens."</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_CLSM_ORSTED_NAME" Language="zh_Hans_CN">
+			<Text>龙神.奥尔斯帝德</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CLSM_ORSTED_NAME" Language="en_US">
+			<Text>Dragon God Orsted</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CLSM_ORSTED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不可训练。仅由奇观「赤龙山脉」建成时召唤。飞行：可进入山脉、海岸与海洋，无视地形消耗与控制区域。基础移动 10、战斗力 200；近战单位，可占领城市与城邦。可晋升至第 7 级：每级 +2 移动、+50 战斗力，并 +1 次攻击（第 1 级 1 次攻击 … 第 7 级 7 次攻击）。技能「神刀」：攻击时对单位一击必杀，并对城市城防造成毁灭伤害并可占领。外形复用直升机模型作为飞行龙神代理。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CLSM_ORSTED_DESCRIPTION" Language="en_US">
+			<Text>Untrainable. Spawned when Red Dragon Mountains is completed. Flies over mountains, coasts and oceans; ignores terrain cost and ZOC. Melee: can capture cities and city-states. Base 10 Moves / 200 Combat; up to 7 ranks (+2 Moves / +50 Combat / +1 Attack per promotion: Lv1=1 atk … Lv7=7 atk). God Blade: one-hit kills units and wrecks/captures cities. Art: Helicopter model proxy.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_CLSM_ORSTED_NAME" Language="zh_Hans_CN">
+			<Text>龙神飞行</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_ORSTED_NAME" Language="en_US">
+			<Text>Dragon Flight</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_ORSTED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视地形移动消耗；可进入山脉、海岸与海洋；对城区/城墙战斗力大幅提升；可攻击城墙。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_ORSTED_DESCRIPTION" Language="en_US">
+			<Text>Ignores terrain movement cost; can enter Mountains, Coast and Ocean; huge bonus vs districts/walls; can attack walls.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_CLSM_GODBLADE_NAME" Language="zh_Hans_CN">
+			<Text>神刀</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_GODBLADE_NAME" Language="en_US">
+			<Text>God Blade</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_GODBLADE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>对任何单位一击必杀；对城市城防造成毁灭伤害并可占领（含城邦与海上）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_GODBLADE_DESCRIPTION" Language="en_US">
+			<Text>One-hit kills any unit; wrecks city defenses and can capture (including city-states and at sea).</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_GODBLADE_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 神刀</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_GODBLADE_MODIFIER" Language="en_US">
+			<Text>+{1_Amount} God Blade</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_CITY_MODIFIER" Language="zh_Hans_CN">
+			<Text>+{1_Amount} 对城区/城市</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_CITY_MODIFIER" Language="en_US">
+			<Text>+{1_Amount} vs Districts/Cities</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_CLSM_MULTIATTACK_NAME" Language="zh_Hans_CN">
+			<Text>龙神连击</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_MULTIATTACK_NAME" Language="en_US">
+			<Text>Dragon Multi-Strike</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_MULTIATTACK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每升一级多一次攻击机会（第 N 级可攻击 N 次）。攻击后恢复移动以继续行动。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_CLSM_MULTIATTACK_DESCRIPTION" Language="en_US">
+			<Text>Each level grants one attack (Lv N = N attacks). Movement restored after each attack to continue acting.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROMOTION_CLASS_CLSM_ORSTED_NAME" Language="zh_Hans_CN">
+			<Text>龙神</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_CLSM_ORSTED_NAME" Language="en_US">
+			<Text>Dragon God</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Movement] 移动力，+50 [ICON_Strength] 战斗力，+1 次攻击。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Movement] Movement, +50 [ICON_Strength] Combat Strength, +1 Attack.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV2_NAME" Language="zh_Hans_CN">
+			<Text>龙神·第二阶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV2_NAME" Language="en_US">
+			<Text>Dragon God Rank 2</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV3_NAME" Language="zh_Hans_CN">
+			<Text>龙神·第三阶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV3_NAME" Language="en_US">
+			<Text>Dragon God Rank 3</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV4_NAME" Language="zh_Hans_CN">
+			<Text>龙神·第四阶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV4_NAME" Language="en_US">
+			<Text>Dragon God Rank 4</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV5_NAME" Language="zh_Hans_CN">
+			<Text>龙神·第五阶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV5_NAME" Language="en_US">
+			<Text>Dragon God Rank 5</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV6_NAME" Language="zh_Hans_CN">
+			<Text>龙神·第六阶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV6_NAME" Language="en_US">
+			<Text>Dragon God Rank 6</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV7_NAME" Language="zh_Hans_CN">
+			<Text>龙神·第七阶</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLSM_LV7_NAME" Language="en_US">
+			<Text>Dragon God Rank 7</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
